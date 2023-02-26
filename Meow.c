@@ -14,5 +14,11 @@ int main(void) {
         i++;
     }
 
+    /* Forever Loop
+    while(1){
+        printf("Meow\n")
+    }
+    */
+
     return 0;
 }
