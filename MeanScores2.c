@@ -4,8 +4,7 @@ float average(int array[], const int n);
 
 int main(void){
 
-    int score;
-    int n;
+    int score, n;
 
     printf("Enter # of Scores: ");
     scanf("%d", &n);
@@ -17,7 +16,6 @@ int main(void){
         scanf("%d", &score);
         scores[i] = score;
     }
-
     printf("The average score is: %.2f\n", average(scores, n));
     return 0;
 }
@@ -25,10 +23,8 @@ int main(void){
 
 float average(int array[], const int n){
     int sum = 0;
-    float avg = 0;
     for (int i = 0; i < n; i++){
         sum += array[i];
     }
-    avg = (float) sum / n;
-    return avg; 
+    return (float) sum / n; 
 }
