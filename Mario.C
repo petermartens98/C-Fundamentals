@@ -2,6 +2,9 @@
 
 #include <stdio.h>
 
+int get_size(void);
+void print_grid(int size);
+
 int main(void) {
     // Get Size of Grid
     int n = get_size();
