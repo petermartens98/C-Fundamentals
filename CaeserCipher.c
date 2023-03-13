@@ -1,3 +1,6 @@
+// Caesar Cipher: A simple substitution cipher where each letter 
+// is shifted a fixed number of positions down the alphabet.
+
 #include <stdio.h>
 
 int main() {
